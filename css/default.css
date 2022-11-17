@@ -1,5 +1,6 @@
 :root {
   --color-primary-red: hsl(1, 90%, 64%);
+  --color-primary-red-alt: hsl(1, 84%, 48%);
   --color-primary-blue: hsl(219, 85%, 26%);
   --color-neutral-white: hsl(0, 0%, 100%);
   --color-neutral-extra-light-gray-blue: hsl(210, 60%, 98%);
@@ -127,7 +128,7 @@ a:hover {
 }
 
 .recent-indicator {
-  color: var(--color-primary-red);
+  color: var(--color-primary-red-alt);
   font-size: 1.3em;
   line-height: 1;
 }
